@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var port = 1341;
+var port = 4200;
 var cors = require('cors');
 
 // Mongoose connection with mongodb
