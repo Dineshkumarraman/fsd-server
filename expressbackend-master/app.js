@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 app.use('/items', itemRouter);
 
-// Start the server
+// Start the server tests
 app.listen(port, function(){
   console.log('Server is running on Port: ',port);
 });
